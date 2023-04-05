@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head_section{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-bottom: 8px;
+    /* border: 2px solid black; */
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.name{
+    /* border: 2px solid red; */
+    width: 25%;
+    padding-top: 15px;
+}
+
+.name h3{
+    font-size: 20px;
+    margin-left: 8rem;
+    margin-top: 10px;
+}
+
+.navbar{
+    /* border: 2px solid green; */
+    /* width: 70%; */
+    margin-left: 19rem;
+    
+    margin-top: 12px;
+    
+}
+
+/* ul{
+    /* border: 2px solid yellow; */
+    /* height: 8vh; */
+
+li{
+    float: left;
+    margin: 10px;
+    margin-left: 45px;
+    list-style: none;
+    font-size: 20px; 
+    
+    text-align: end;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+.mid_container{
+    /* border: 2px solid black; */
+
+    width: 80%;
+    height: 89vh;
+    display: flex;
+    margin-left: 152px;
+}
+
+.about_intro{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.heading_intro{
+    /* border: 2px solid red; */
+   width: 80%;
+   margin-left: 10vh;
+    height: 40vh;
+    margin-top: 28vh;
+    
+
+}
+
+.heading_intro h3{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.heading_intro h1{
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+.heading_intro h4,p{
+    margin-bottom: 10px;
+    /* font-size: 19px; */
+}
+
+.heading_intro button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 9px;
+    margin-top: 15px;
+}
+.about_pic{
+    /* text-align: end; */
+    width: 38%;
+    /* border: 2px solid green; */
+    height: 87vh;
+}
+
+.about_pic img{
+    margin-right: 181px;
+    margin-top: 15vh;
+}
+
+/* Section 2 About Education */
+
+.part-2{
+    /* border: 2px solid red; */
+    height: auto;
+}
+
+
+.about_education{
+    /* border: 2px solid red; */
+    width: 24%;
+    margin-left: 124px;
+    font-size: 22px;
+    padding: 11px;
+    font-weight: bolder;
+}
+
+.ghrce{
+   
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.ghrce-img{
+    /* border: 2px solid green; */
+    margin-top: 52px;
+    padding: 17px;
+}
+
+.ghrce-intro{
+    /* border: 2px solid yellow; */
+    height: auto;
+    width: 30%;
+    margin-left: 90px;
+    padding: 11px
+}
+
+
+
+.mks{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.mks-img{
+    /* border: 2px solid green; */
+    margin-top: 52px;
+    padding: 17px;
+}
+
+.mks-intro{
+    /* border: 2px solid yellow; */
+    height: auto;
+    width: 30%;
+    margin-right: 92px;
+    padding: 11px
+}
+
+
+/* part 3 */
+
+.part-3{
+    height: 27vh;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    /* margin: 2px; */
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(12, 12, 12)
+    
+}
+
+/* Contact section */
+
+.contact-form{
+    /* border:  2px solid red; */
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form{
+    /* border: 2px solid black; */
+    height: 70vh;
+    width: 30%;
+}
+
+.head-contact h1{
+    /* border:  2px solid red; */
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    margin: 10px;
+    padding: 5px;
+}
+.contact{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 8px;
+    padding: 5px;
+
+}
+
+.input-contact{
+    border:  2px solid black;
+    font-size: 20px;
+    margin: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.contact textarea{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.contact button{
+    /* border: 2px solid red; */
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-top: 25px;
+    padding: 7px 15px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Footer section */
+
+.footer{
+    height: 22vh;
+    /* border:  2px solid black; */
+    width: 40%;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer h3{
+    /* border: 2px solid red; */
+    padding: 5px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.footer img{
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+
+.footer h4{
+    /* border: 2px solid red; */
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
